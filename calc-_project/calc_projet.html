@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <main>
+      <div class="Calculatrice">
+        <input type="text" class="ecran" readonly id="display" />
+        <div class="touches"></div>
+        <button class="button" onclick="wriat('(')">(</button>
+        <button class="button" onclick="wriat(')')">)</button>
+        <button class="button" onclick="wriat('/')">/</button>
+        <button class="button" onclick="clearwriat()">C</button>
+        <button class="button" onclick="wriat('8')">8</button>
+        <button class="button" onclick="wriat('9')">9</button>
+        <button class="button" onclick="wriat('7')">7</button>
+        <button class="button" onclick="wriat('*')">*</button>
+        <button class="button" onclick="wriat('4')">4</button>
+        <button class="button" onclick="wriat('5')">5</button>
+        <button class="button" onclick="wriat('6')">6</button>
+        <button class="button" onclick="wriat('-')">-</button>
+        <button class="button" onclick="wriat('1')">1</button>
+        <button class="button" onclick="wriat('2')">2</button>
+        <button class="button" onclick="wriat('3')">3</button>
+        <button class="button" onclick="wriat('+')">+</button>
+        <button class="button" onclick="wriat('0')">0</button>
+        <button class="button" onclick="wriat('.')">.</button>
+        <button class="button" onclick="deleteLastchar()">DEL</button>
+        <button class="button" onclick="Calcul()">=</button>
+      </div>
+    </main>
+    <script src="calcul.js"></script>
+  </body>
+</html>
